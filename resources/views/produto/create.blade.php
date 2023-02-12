@@ -5,10 +5,11 @@
 
 
 @section('content')
-<div id="app">
+    <div id="app">
         <div class="col-lg-12">
-            <formulario-produto></formulario-produto>
-            
+        <br>
+            <formulario-produto :codigo="{{$codigoRandomico}}"></formulario-produto>
+                    
         
             <div class="btn-toolbar" role="toolbar">
                 <div class="btn-group  btn-group-sm me-2" role="group">
@@ -28,12 +29,11 @@
             
             <br>
             <br>
-
             
         </div>
-
     <div>
-@endsection
+
+    @endsection
 
 
    

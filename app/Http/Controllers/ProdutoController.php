@@ -26,7 +26,8 @@ class ProdutoController extends Controller
      */
     public function create()
     {
-        return view("produto.create");
+        $randomNumber = random_int(1000, 9999);
+        return view("produto.create",['codigoRandomico' =>$randomNumber]);
     }
 
     /**

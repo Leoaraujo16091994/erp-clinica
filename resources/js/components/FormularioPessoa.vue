@@ -1,43 +1,43 @@
 <template>
    <div class="row mb-3">
-                   
-                    <div class="col-md-3">
-                        <div class="input-group">
-                            <input type="text" required>
-                            <label>Código </label>
-                        </div>
-                    </div>
+        
+        <div class="col-md-3">
+            <div class="input-group">
+                <input type="text" required>
+                <label>Código </label>
+            </div>
+        </div>
 
 
-                    <div class="col-md-3">
-                        <div class="input-group">
-                            <input type="text" required>
-                            <label>Descrição </label>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="input-group">
-                            <input type="text" required>
-                            <label>Quantidade</label>
-                        </div>
-                    </div>
+        <div class="col-md-3">
+            <div class="input-group">
+                <input type="text" required>
+                <label>Descrição </label>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="input-group">
+                <input type="text" required>
+                <label>Quantidade</label>
+            </div>
+        </div>
 
 
-                    <div class="col-md-3">
-                        <div class="input-group" id="inputSelect">
-                        <select class="form-control" onclick="this.setAttribute('value', this.value);" value="">
-                                <option ></option>
-                                <option value="1">Sala A</option>
-                                <option value="2">Sala B</option>
-                                <option value="3">Sala C</option>
-                                <option value="4">Sala D</option>
-                                <option value="5">Sala E</option>
-                            </select>
-                            <label>Grupo</label>
-                        </div>
-                    </div>                   
-                    
-                </div>
+        <div class="col-md-3">
+            <div class="input-group" id="inputSelect">
+            <select class="form-control" onclick="this.setAttribute('value', this.value);" value="">
+                    <option ></option>
+                    <option value="1">Sala A</option>
+                    <option value="2">Sala B</option>
+                    <option value="3">Sala C</option>
+                    <option value="4">Sala D</option>
+                    <option value="5">Sala E</option>
+                </select>
+                <label>Grupo</label>
+            </div>
+        </div>                   
+        
+    </div>
 
 </template>
 
